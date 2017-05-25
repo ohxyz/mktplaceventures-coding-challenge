@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My CSS */
+li {
+    display: flex;
+    padding: 8px 0;
+}
+
+li:first-child {  
+    border-bottom: 2px dashed #333; 
+}
+
+
+span { 
+    display: flex;
+    flex: 1;
+    padding: 0 4px;
+}
+
+input[type=text] {
+    flex: 1;
+}
+
+.color-2017-01-14 {
+    background-color: darkgreen;
+}
+.color-2017-01-15 {
+    background-color: yellow;
+}
+.color-2017-01-16 {
+    background-color: lavender;
+}
+.color-2017-01-17 {
+    background-color: green;
+}
+.color-2017-01-18 {
+    background-color: aquamarine;
+}
+.color-2017-01-19 {
+    background-color: forestgreen;
+}
+.color-2017-01-20 {
+    background-color: yellowgreen;
+}
+.color-2017-01-21 {
+    background-color: lawngreen;
+}
+.color-2017-01-22 {
+    background-color: coral;
+}
+.color-2017-01-23 {
+    background-color: khaki;
+}
+.color-2017-01-24 {
+    background-color: orange;
+}
+.color-2017-01-25 {
+    background-color: peru;
+}
+.color-2017-01-26 {
+    background-color: papayawhip;
+}
